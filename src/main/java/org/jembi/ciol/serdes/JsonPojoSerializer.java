@@ -1,4 +1,4 @@
-package org.jembi.ciol.shared.serdes;
+package org.jembi.ciol.serdes;
 
 
 import org.apache.kafka.common.errors.SerializationException;
@@ -6,7 +6,7 @@ import org.apache.kafka.common.serialization.Serializer;
 
 import java.util.Map;
 
-import static org.jembi.ciol.shared.utils.AppUtils.OBJECT_MAPPER;
+import static org.jembi.ciol.utils.AppUtils.OBJECT_MAPPER;
 
 public class JsonPojoSerializer<T> implements Serializer<T> {
 

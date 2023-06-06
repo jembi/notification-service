@@ -15,8 +15,8 @@ import org.apache.kafka.streams.kstream.KStream;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jembi.ciol.AppConfig;
-import org.jembi.ciol.shared.serdes.JsonPojoDeserializer;
-import org.jembi.ciol.shared.serdes.JsonPojoSerializer;
+import org.jembi.ciol.serdes.JsonPojoDeserializer;
+import org.jembi.ciol.serdes.JsonPojoSerializer;
 
 import java.util.HashMap;
 import java.util.Map;

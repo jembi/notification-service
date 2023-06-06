@@ -22,7 +22,7 @@ public final class AppConfig {
             .withResource("application.conf")
             .build();
 
-    public static final String KAFKA_BOOTSTRAP_SERVERS = CONFIG.getString("kafka.bootstrap.servers");
+    public static final String KAFKA_BOOTSTRAP_SERVERS = CONFIG.getString("KAFKA_HOSTS");
     public static final String KAFKA_APPLICATION_ID = CONFIG.getString("kafka.application-id");
     public static final String KAFKA_CLIENT_ID = CONFIG.getString("kafka.client-id");
     public static final String MAIL_SMTP_HOST = CONFIG.getString( "mail.smtp.host");

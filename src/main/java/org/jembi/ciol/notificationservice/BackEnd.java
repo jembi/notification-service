@@ -14,7 +14,7 @@ import org.jembi.ciol.models.NotificationMessage;
 import java.io.File;
 import java.io.IOException;
 
-import static org.jembi.ciol.shared.utils.AppUtils.OBJECT_MAPPER;
+import static org.jembi.ciol.utils.AppUtils.OBJECT_MAPPER;
 
 public class BackEnd extends AbstractBehavior<BackEnd.Event> {
 

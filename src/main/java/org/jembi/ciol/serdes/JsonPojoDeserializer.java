@@ -1,11 +1,11 @@
-package org.jembi.ciol.shared.serdes;
+package org.jembi.ciol.serdes;
 
 import org.apache.kafka.common.errors.SerializationException;
 import org.apache.kafka.common.serialization.Deserializer;
 
 import java.util.Map;
 
-import static org.jembi.ciol.shared.utils.AppUtils.OBJECT_MAPPER;
+import static org.jembi.ciol.utils.AppUtils.OBJECT_MAPPER;
 
 public class JsonPojoDeserializer<T> implements Deserializer<T> {
     public static final String CLASS_TAG = "JsonPOJOClass";
