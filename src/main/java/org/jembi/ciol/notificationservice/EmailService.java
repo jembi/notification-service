@@ -120,7 +120,7 @@ public class EmailService {
 
             message.setContent(multipart);
 
-//            Transport.send(message);
+            Transport.send(message);
 
         } catch (Exception e) {
             LOGGER.error(e.getLocalizedMessage(), e);
